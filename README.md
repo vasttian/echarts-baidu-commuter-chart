@@ -1,4 +1,4 @@
-# echarts-baidu-commuter-chart
+# echarts2-baidu-commuter-chart
 
 
 #### link

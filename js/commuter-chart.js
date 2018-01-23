@@ -499,6 +499,360 @@
               'p500': [113.3287,23.13662]
             }
           },
+          {
+            name: '上班人群',
+            type: 'map',
+            mapType: 'none',
+            data:[],
+
+            markLine: {
+              Symbol:['none', 'arrow'],
+              symbolSize:['0', '0.1'],
+              smooth:true,
+              smooth:10,
+              effect : {
+                show: true,
+                scaleSize: 1,
+                period: 30,
+                color: '#fff',
+                shadowBlur: 10
+              },
+              itemStyle : {
+                color: 'red',
+                normal: {
+                  color:function(param){
+                    return(param.data[0].value.colorValue);
+                  },
+                  borderWidth:1,
+                  lineStyle: {
+                    type: 'dashed',
+                    width: 1.5,
+                    shadowBlur: 10
+                  },
+                  label:{show:false}
+                }
+              },
+
+              data: [
+                [{name:'p401'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p402'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p403'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p404'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p405'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p406'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p407'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p408'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p409'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p410'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p411'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p412'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p413'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p414'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p415'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p416'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p417'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p418'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p419'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p420'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p421'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p422'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p423'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p424'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p425'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p426'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p427'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p428'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p429'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p430'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p431'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p432'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p433'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p434'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p435'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p436'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p437'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p438'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p439'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p440'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p441'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p442'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p443'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p444'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p445'}, {name:'p910',value:{colorValue:'aqua'}}],
+                [{name:'p446'}, {name:'p910',value:{colorValue:'aqua'}}],
+              ]
+            },
+          },
+          {
+            name: '购物人群',
+            type:'map',
+            mapType: 'none',
+            data:[],
+
+            markLine: {
+              Symbol:['none', 'arrow'],
+              symbolSize:['0', '0.1'],
+              smooth:true,
+              smooth:10,
+              effect : {
+                show: true,
+                scaleSize: 1,
+                period: 30,
+                color: '#fff',
+                shadowBlur: 10
+              },
+              itemStyle : {
+                color: 'red',
+                normal: {
+                  color:function(param){
+                    return(param.data[0].value.colorValue);
+                  },
+                  borderWidth:1,
+                  lineStyle: {
+                    type: 'dashed',
+                    width: 1.5,
+                    shadowBlur: 10
+                  },
+                  label:{show:false}
+                }
+              },
+
+              data: [
+                [{name:'p440'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p441'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p442'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p443'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p444'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p445'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p446'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p447'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p448'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p449'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p450'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p451'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p452'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p453'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p454'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p455'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p456'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p457'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p458'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p459'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p460'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p461'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p462'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p463'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p464'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p465'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p466'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p467'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p468'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p469'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p470'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p471'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p472'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p473'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p474'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p475'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p476'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p477'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p478'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p479'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p480'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p481'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p482'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p483'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p484'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p485'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p486'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p487'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p488'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p489'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p490'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p491'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p492'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p493'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p494'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p495'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p496'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p497'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p498'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p499'}, {name:'p920',value:{colorValue:'lime'}}],
+                [{name:'p500'}, {name:'p920',value:{colorValue:'lime'}}]
+              ]
+            },
+          },
+          {
+            name: '买菜人群',
+            type:'map',
+            mapType: 'none',
+            data:[],
+
+            markLine: {
+              Symbol:['none', 'arrow'],
+              symbolSize:['0', '0.1'],
+              smooth:true,
+              smooth:10,
+              effect : {
+                show: true,
+                scaleSize: 1,
+                period: 30,
+                color: '#fff',
+                shadowBlur: 10
+              },
+              itemStyle : {
+                color: 'red',
+                normal: {
+                  color:function(param){
+                    return(param.data[0].value.colorValue);
+                  },
+                  borderWidth:1,
+                  lineStyle: {
+                    type: 'dashed',
+                    width: 1.5,
+                    shadowBlur: 10
+                  },
+                  label:{show:false}
+                }
+              },
+
+              data: [
+                [{name:'p401'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p402'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p403'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p404'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p405'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p406'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p407'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p408'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p409'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p410'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p411'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p412'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p413'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p414'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p415'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p416'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p417'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p418'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p419'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p420'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p421'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p422'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p423'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p424'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p425'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p426'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p427'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p428'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p429'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p430'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p431'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p432'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p479'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p480'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p481'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p482'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p483'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p484'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p485'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p486'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p487'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p488'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p489'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p490'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p491'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p492'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p493'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p494'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p495'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p496'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p497'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p498'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p499'}, {name:'p930',value:{colorValue:'#FF6347'}}],
+                [{name:'p500'}, {name:'p930',value:{colorValue:'#FF6347'}}]
+              ]
+            },
+          },
+          {
+            name: '流浪人群',
+            type:'map',
+            mapType: 'none',
+            data:[],
+
+            markLine: {
+              Symbol:['none', 'arrow'],
+              symbolSize:['0', '0.1'],
+              smooth:true,
+              smooth:10,
+              effect : {
+                show: true,
+                scaleSize: 1,
+                period: 30,
+                color: '#fff',
+                shadowBlur: 10
+              },
+              itemStyle : {
+                color: 'red',
+                normal: {
+                  color:function(param){
+                    return(param.data[0].value.colorValue);
+                  },
+                  borderWidth:1,
+                  lineStyle: {
+                    type: 'dashed',
+                    width: 1.5,
+                    shadowBlur: 10
+                  },
+                  label:{show:false}
+                }
+              },
+
+              data: [
+                [{name:'p401'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p406'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p407'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p408'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p409'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p410'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p411'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p412'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p413'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p414'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p415'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p416'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p417'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p450'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p451'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p452'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p453'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p454'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p455'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p456'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p457'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p458'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p459'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p460'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p461'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p462'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p463'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p464'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p465'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p466'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p467'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p468'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p469'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p493'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p494'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p495'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p496'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p497'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p498'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p499'}, {name:'p940',value:{colorValue:'#008080'}}],
+                [{name:'p500'}, {name:'p940',value:{colorValue:'#008080'}}]
+              ]
+            },
+          },
         ]
       };
 

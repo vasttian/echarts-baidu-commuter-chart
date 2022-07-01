@@ -1,11 +1,11 @@
 # echarts2-baidu-commuter-chart
 
 
-#### link
-[echart 引入百度地图制作通勤图](http://blog.csdn.net/yc_1993/article/details/51367575)
+#### Link
+[Echarts 引入百度地图制作通勤图](http://blog.csdn.net/yc_1993/article/details/51367575)
 
 
-#### dependencies
+#### Dependencies
 
 - [baidu map](http://lbsyun.baidu.com/)
 - [echarts-2.2.7](http://echarts.baidu.com/build/echarts-2.2.7.zip)
